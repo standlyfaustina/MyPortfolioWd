@@ -116,7 +116,7 @@ html{
     transition: color 0.2s;
 }
 
-.change.navbaar-link{
+.change.navbar-link{
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ html{
     position: relative;
 }
 
-.project-text{
+.progress-text{
     position: absolute;
     left: 1rem;
     font-size: 1.5rem;
@@ -236,7 +236,7 @@ html{
 }
 
 .projects-wrapper{
-    width: 80%;
+    /* width: 80%; */
     flex-wrap: wrap;
 }
 
@@ -288,7 +288,7 @@ html{
     transition: opacity 0.3s;
 }
 
-project:hover .project-img{
+.project:hover .project-img{
     opacity: 0.2;
 }
 
@@ -305,7 +305,7 @@ project:hover .project-img{
     transition: bottom 0.3s;
 }
 
-project:hover .project-link{
+.project:hover .project-link{
     bottom: 5rem;
     transition: bottom 0.3s;
 }
@@ -313,6 +313,15 @@ project:hover .project-link{
  
 /* section 3 ends here */
 /* section 4 */
+.section-4{
+    width: 100%;
+    height: 70vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .section-4-heading{
     color:#fff ;
     box-shadow: none;
